@@ -1,1 +1,10 @@
 venv/ 
+venv/
+__pycache__/
+*.pyc
+data/raw/
+data/interim/
+data/processed/
+data/canonical/
+artifacts/
+.ipynb_checkpoints/
