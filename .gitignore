@@ -8,3 +8,50 @@ data/processed/
 data/canonical/
 artifacts/
 .ipynb_checkpoints/
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+*/venv/
+.env/
+*/.env/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# Data folders (large raw/intermediate/output)
+data/raw/
+data/interim/
+data/processed/
+data/canonical/
+artifacts/
+outputs/
+logs/
+
+# Model files (large)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# VS Code configs
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment settings
+.envrc
+*.env
+
+# local venv
+portfolio_venv
+
